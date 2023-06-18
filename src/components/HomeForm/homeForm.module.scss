@@ -1,0 +1,23 @@
+.form {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.label {
+    width: 100%;
+    max-width: 400px;
+}
+
+.input {
+    width: 100%;
+}
+
+.errorMessage {
+    color: red;
+    margin-top: 10px;
+}
+
+.labelWrapper {
+    margin-bottom: 24px;
+}

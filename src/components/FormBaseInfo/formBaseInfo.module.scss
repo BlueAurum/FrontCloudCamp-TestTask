@@ -1,0 +1,28 @@
+.form {
+    padding-top: 67px;
+}
+
+.label {
+    width: 100%;
+    max-width: 400px;
+}
+
+.input {
+    width: 100%;
+}
+
+.errorMessage {
+    color: red;
+    margin-top: 10px;
+}
+
+.labelWrapper {
+    margin-bottom: 24px;
+    width: 300px;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 88px;
+}

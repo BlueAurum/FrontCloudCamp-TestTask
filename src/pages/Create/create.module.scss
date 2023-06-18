@@ -1,0 +1,41 @@
+.create {
+    margin: 24px auto;
+    padding: 62px 110px;
+    width: 100%;
+    max-width: 900px;
+    min-height: 704px;
+    background-color: #ffffff;
+    border-radius: 12px 12px 0px 0px;
+    @media screen and (max-width: 547px) {
+        padding: 62px 50px;
+    }
+    @media screen and (max-width: 400px) {
+        padding: 62px 10px;
+    }
+}
+
+.progressLevelIndicator {
+    width: 16px;
+    height: 16px;
+    background-color: #5558fa;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notDone {
+    background-color: #a6a6a6;
+}
+
+.point {
+    width: 3.2px;
+    height: 3.2px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.icon {
+    color: #fff;
+    font-size: 10px;
+}

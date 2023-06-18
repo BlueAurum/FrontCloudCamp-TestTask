@@ -1,0 +1,34 @@
+.form {
+    margin-top: 66px;
+}
+
+.formTitle {
+    margin-bottom: 10px;
+}
+
+.errorMessage {
+    color: red;
+    margin-top: 10px;
+}
+
+.textArea {
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    background-color: #fff;
+    outline: none;
+    resize: vertical;
+    width: 100%;
+    height: 84px;
+    max-width: 680px;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 88px;
+}
+
+.maxWord {
+    color: red;
+}

@@ -1,0 +1,62 @@
+.form {
+    padding-top: 67px;
+}
+
+.labelWrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+    &:not(:last-child) {
+        margin-bottom: 8px;
+    }
+}
+
+.trashIcon {
+    cursor: pointer;
+}
+
+.addBtn {
+    margin-top: 10px;
+}
+
+.formTitle {
+    margin-bottom: 8px;
+}
+
+.input {
+    width: 300px;
+    max-width: 300px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.48);
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 88px;
+}
+
+.checkboxWrapper {
+    margin: 24px 0;
+}
+
+.checkboxLabel {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    &:not(:last-child) {
+        margin-bottom: 4px;
+    }
+}
+
+.errorMessage {
+    color: red;
+    margin-top: 10px;
+}
